@@ -1,0 +1,52 @@
+/*----------------- 
+Backend related CSS
+-----------------*/
+.favorites-popup {
+  width: 350px;
+  height: 200px;
+  background: rgb(213 210 210);
+  display: none;
+  position: absolute;
+  top:40%;
+  left: 40%;
+  right: 60%;
+  z-index: 9999999;
+  text-align: center;
+ 
+        h5{
+        	margin-top: 25%;
+        }
+        &:nth-child(2) {
+          transform: rotate(135deg);
+        }
+      }
+    }
+  }
+}
+
+ .popup__content {
+    width: 80%;
+    overflow:auto;
+    padding: 50px;
+    background: white;
+    color: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    .close {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 20px;
+      display: block;
+      span {
+        cursor: pointer;
+        position: fixed;
+        width: 20px;
+        height: 3px;
+        background: #099ccc;
+        &:nth-child(1) {
+          transform: rotate(45deg);
+        }
